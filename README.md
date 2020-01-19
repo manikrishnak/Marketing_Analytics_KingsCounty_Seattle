@@ -1,1 +1,7 @@
 # Marketing_Analytics_KingsCounty_Seattle
+
+**Technology used:** Marketing principles and SAS
+
+As part of our marketing analytics project, we have analyzed the king county housing dataset ; which contained the data of the homes sold between 2014 and 2015; to identify the factors impacting the house price in that area. 
+
+After cleaning up the dataset for what seemed to be data entry errors and replacing the null values with relevant mean values or zero's based on the feature , we had about 22,000 observations and 19 features like number of bedrooms, number of bathrooms, sqft_living, sqft_lot etc. and the target variable, house price. The initial exploratory visualizations led us to believe that the principal component analysis (PCA) would be a good point to start in narrowing down the data to see which features critically impact the house price. Basing on the PCA and cluster analysis technique, we were able to  segment the features into 3 main clusters example (cluster 1 had Grade, Bathrooms, sqft_living etc, cluster 2 had features like view, waterfront etc. From this we have designed two email ad campaigns, one of which only talked about the features of cluster one and the second campaign mentioned a combination of features from cluster 1 and 2. The benefit of this campaign are two fold: Segment your customers based on what interests them and do some niche marketing. 2. Tailor your advertisements/marketing campaigns based on customer response.
